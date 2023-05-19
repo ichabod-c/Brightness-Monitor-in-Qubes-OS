@@ -17,7 +17,7 @@ elif [ "$1" == "down" ]; then
     new_brightness_scaled=$(echo "$current_brightness_scaled - 0.1" | bc)
     # Check if the new brightness is less than 0 (minimum brightness)
     if (( $(echo "$new_brightness_scaled < 0" | bc -l) )); then
-        new_brightness_scaled=0
+        new_brightness_scaled=0.1
     fi
 else
     exit 1
