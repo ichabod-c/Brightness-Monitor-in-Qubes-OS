@@ -7,13 +7,13 @@ This Bash script provides a simple and efficient way to adjust the brightness of
 To increase the brightness:
 
 ```bash
-./brightness_control.sh up
+./brightness.sh up
 ```
 
 To decrease the brightness:
 
 ```bash
-./brightness_control.sh down
+./brightness.sh down
 ```
 
 This script can be easily linked to a keyboard shortcut for quick brightness adjustments without the need to open system settings.
